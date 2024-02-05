@@ -1,0 +1,54 @@
+body {
+    background: 
+      url('../assets/images/background-pattern-desktop.svg') top / 100% no-repeat,
+      linear-gradient(to right, hsl(275, 100%, 97%), hsl(275, 100%, 97%));
+    height: 100vh;
+  }
+  
+  .Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin-left: 480px;
+    margin-top: 100px;
+    gap: 20px;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 40px;
+    background-color: white;
+  
+    h1 {
+      font-size: 17px;
+      font-weight: bold;
+  
+      &:hover {
+        color:  darkmagenta;
+        cursor: pointer;
+      }
+    }
+  
+    .Top {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+  
+      h1 {
+        font-size: 45px;
+      }
+    }
+  
+    .title {
+      width: 100%;
+      line-height: 1.6rem;
+      opacity: 0.8s;
+    }
+  
+    .First-part {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+  }
+  
